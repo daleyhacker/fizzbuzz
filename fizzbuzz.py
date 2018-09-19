@@ -50,9 +50,14 @@ numbers = int(input("How many numbers shall we print 'Fizz'? "))
 fizz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
+
+number = range(1, numbers)
 total = (numbers + 1)
+
 
 for i in range(1, total):
     print(i)
-    if number/fizz == %:
-        print(fizz)
+    if number % fizz == 0:
+        print("fizz")
+
+

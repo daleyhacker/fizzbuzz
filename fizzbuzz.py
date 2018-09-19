@@ -58,6 +58,8 @@ total = (numbers + 1)
 for i in range(1, total):
     print(i)
 
+
+numbers == range(1, total)
 if numbers % fizz == 0:
         print("fizz")
 if numbers % buzz == 0:

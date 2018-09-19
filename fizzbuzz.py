@@ -54,5 +54,5 @@ total = (numbers + 1)
 
 for i in range(1, total):
     print(i)
-    for i in range(1, total):
+    if number/fizz == %:
         print(fizz)

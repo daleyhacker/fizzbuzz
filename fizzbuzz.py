@@ -53,12 +53,6 @@ buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 total = (numbers + 1)
 
 
-#for i in range(1, total):
-#    print(i)
-
-
-
-#number == range(1, total)
 
 for j in range(1, total):
     if j % buzz == 0:

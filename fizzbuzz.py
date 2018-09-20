@@ -46,11 +46,11 @@ Buzz
 """
 
 
-numbers = int(input("How many numbers shall we print 'Fizz'? "))
+numbers = int(input("How many numbers shall we print? "))
 fizz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
-total = (numbers + 1)
+total = (numbers+1)
 
 
 

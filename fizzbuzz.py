@@ -55,9 +55,11 @@ total = (numbers+1)
 
 
 for j in range(1, total):
-    if j % buzz == 0:
-        print("buzz")
+    if j % buzz == 0 and j % fizz == 0:
+        print("FizzBuzz")
+    elif j % buzz == 0:
+        print("Buzz")
     elif j % fizz == 0:
-        print("fizz")
+        print("Fizz")
     else:
         print(j)

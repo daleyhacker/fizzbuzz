@@ -63,7 +63,7 @@ total = (numbers + 1)
 for j in range(1, total):
     if j % buzz == 0:
         print("buzz")
-    if j % fizz == 0:
+    elif j % fizz == 0:
         print("fizz")
     else:
         print(j)
